@@ -1,0 +1,714 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Website</title>
+    <link rel="stylesheet" href="moviewebsite.css">
+    <link rel="stylesheet" href="lightslider.css">
+    <script src="JQuery3.3.1.js"></script>
+    <script src="lightslider.js"></script>
+    <!--fav icons-------------->
+    <link rel="shortcut icon" href="mv/fav icon.png">
+    <!--using font-awesome------------------>
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!--navbar-------------->
+    <nav>
+        <!--logo--------------->
+        <a href="#" class="logo">
+            <img src="mv/logo.png" alt="">
+        </a>
+
+        <!--menu-btn---------------------->
+        <input type="checkbox" class="menu-btn" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn">
+            <span class="nav-icon"></span>
+        </label>
+        <!--menu----------------->
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">TV Shows</a></li>
+            <li><a href="#">Hollywood</a></li>
+            <li><a href="#">Horror</a></li>
+        </ul>
+
+        <!--search------------------>
+        <div class="search">
+            <input type="text" placeholder="Find your favourite movies" />
+            <!--search icon--------------->
+            <i class="fas fa-search"></i>
+        </div>
+    </nav>  
+    
+    <section id="main">
+        <!--showcase-------------------->
+        <!--heading--------------->
+        <h1 class="showcase-heading">Showcase</h1>
+
+        <ul id="autoWidth" class="cs-hidden">
+            <li class="item-a">
+                <!--showcase-box-1------------->
+                <div class="showcase-box">
+                    <img src="mv/1.jpg" alt="Saina">     
+                </div>
+            </li>
+
+            <li class="item-b">
+                <!--showcase-box-2------------->
+                <div class="showcase-box">
+                    <img src="mv/2.jpg" alt="Parasite">     
+                </div>
+            </li>
+
+            <li class="item-c">
+                <!--showcase-box-3------------->
+                <div class="showcase-box">
+                    <img src="mv/3.jpg" alt="Jupiter Ascending">     
+                </div>
+            </li>
+
+            <li class="item-d">
+                <!--showcase-box-4------------->
+                <div class="showcase-box">
+                    <img src="mv/4.png" alt="AVA">     
+                </div>
+            </li>
+
+            <li class="item-e">
+                <!--showcase-box-5------------->
+                <div class="showcase-box">
+                    <img src="mv/5.jpg" alt="Extraction">     
+                </div>
+            </li>
+
+            <li class="item-f">
+                <!--showcase-box-6------------->
+                <div class="showcase-box">
+                    <img src="mv/6.jpg" alt="Wanted">     
+                </div>
+            </li>
+
+            <li class="item-g">
+                <!--showcase-box-7------------->
+                <div class="showcase-box">
+                    <img src="mv/7.jpg" alt="Kaagaz">     
+                </div>
+            </li>
+
+            <li class="item-h">
+                <!--showcase-box-8------------->
+                <div class="showcase-box">
+                    <img src="mv/8.jpg" alt="Train To Busan">     
+                </div>
+            </li>
+
+            <li class="item-i">
+                <!--showcase-box-9------------->
+                <div class="showcase-box">
+                    <img src="mv/9.jpg" alt="The Raid">     
+                </div>
+            </li>
+
+            <li class="item-j">
+                <!--showcase-box-10------------->
+                <div class="showcase-box">
+                    <img src="mv/10.jpg" alt="Godzilla King Of  TheMonsters">     
+                </div>
+            </li>
+
+            <li class="item-k">
+                <!--showcase-box-11------------->
+                <div class="showcase-box">
+                    <img src="mv/11.jpg" alt="Avengers: Endgame">     
+                </div>
+            </li>
+
+            <li class="item-l">
+                <!--showcase-box-12------------->
+                <div class="showcase-box">
+                    <img src="mv/12.png" alt="Fury Road">     
+                </div>
+            </li>
+
+            <li class="item-m">
+                <!--showcase-box-13------------->
+                <div class="showcase-box">
+                    <img src="mv/13.jpg" alt="Guardians Of The Galaxy">     
+                </div>
+            </li>
+
+            <li class="item-n">
+                <!--showcase-box-14------------->
+                <div class="showcase-box">
+                    <img src="mv/14.jpg" alt="Beauty and the Beast">     
+                </div>
+            </li>
+
+            <li class="item-o">
+                <!--showcase-box-15------------->
+                <div class="showcase-box">
+                    <img src="mv/15.jpg" alt="Interstellar">     
+                </div>
+            </li>
+
+            <li class="item-p">
+                <!--showcase-box-16------------->
+                <div class="showcase-box">
+                    <img src="mv/16.jpg" alt="Star Wars: The Rise Of Skywalker">     
+                </div>
+            </li>
+
+            <li class="item-q">
+                <!--showcase-box-17------------->
+                <div class="showcase-box">
+                    <img src="mv/17.jpg" alt="Gully Boy">     
+                </div>
+            </li>
+
+            <li class="item-r">
+                <!--showcase-box-18------------->
+                <div class="showcase-box">
+                    <img src="mv/18.jpeg" alt="Thor Ragnarok">     
+                </div>
+            </li>
+
+            <li class="item-s">
+                <!--showcase-box-19------------->
+                <div class="showcase-box">
+                    <img src="mv/19.jpg" alt="Ready Player One">     
+                </div>
+            </li>
+
+            <li class="item-t">
+                <!--showcase-box-20------------->
+                <div class="showcase-box">
+                    <img src="mv/20.jpg" alt="Godzilla vs Kong">     
+                </div>
+            </li>
+
+            <li class="item-u">
+                <!--showcase-box-21------------->
+                <div class="showcase-box">
+                    <img src="mv/21.jpeg" alt="Alive">     
+                </div>
+            </li>
+
+            <li class="item-v">
+                <!--showcase-box-22------------->
+                <div class="showcase-box">
+                    <img src="mv/22.jpg" alt="Maleficent">     
+                </div>
+            </li>
+        </ul>   
+    </section>
+
+
+    <!--latest-movies--------------->
+    <section id="latest">
+        <h2 class="latest-heading">Latest Movies</h2>
+
+        <!--slider--------------------->
+        <ul id="autoWidth2" class="cs-hidden">
+            <!--slide-box-1----------------->
+            <li class="item-a">
+                <div class="latest-box">
+                    <!--img-------------->
+                    <div class="latest-b-img">
+                        <img src="mv/L-1.jpg" alt="action movie">
+                    </div>
+                    <!--text--------->
+                    <div class="latest-b-text">
+                        <strong>Cruella 2021</strong>
+                        <p>Crime Movie</p>
+                    </div>
+                </div>
+            </li>
+
+            <!--slide-box-2----------------->
+            <li class="item-b">
+                <div class="latest-box">
+                    <!--img-------------->
+                    <div class="latest-b-img">
+                        <img src="mv/L-2.jpg" alt="action movie">
+                    </div>
+                    <!--text--------->
+                    <div class="latest-b-text">
+                        <strong>Mumbai Saga 2021</strong>
+                        <p>Action Movie</p>
+                    </div>
+                </div>
+            </li>
+
+            <!--slide-box-3----------------->
+            <li class="item-c">
+                <div class="latest-box">
+                    <!--img-------------->
+                    <div class="latest-b-img">
+                        <img src="mv/L-3.jpg" alt="action movie">
+                    </div>
+                    <!--text--------->
+                    <div class="latest-b-text">
+                        <strong>Space Sweepers 2021</strong>
+                        <p>Sci-Fi Movie</p>
+                    </div>
+                </div>
+            </li>
+
+            <!--slide-box-4----------------->
+            <li class="item-d">
+                <div class="latest-box">
+                    <!--img-------------->
+                    <div class="latest-b-img">
+                        <img src="mv/L-4.jpg" alt="action movie">
+                    </div>
+                    <!--text--------->
+                    <div class="latest-b-text">
+                        <strong>The Croods: A New Age 2020</strong>
+                        <p>Comedy Movie</p>
+                    </div>
+                </div>
+            </li>
+
+            <!--slide-box-5----------------->
+            <li class="item-e">
+                <div class="latest-box">
+                    <!--img-------------->
+                    <div class="latest-b-img">
+                        <img src="mv/L-5.jpg" alt="action movie">
+                    </div>
+                    <!--text--------->
+                    <div class="latest-b-text">
+                        <strong>Bell Bottom 2021</strong>
+                        <p>Thriller Movie</p>
+                    </div>
+                </div>
+            </li>
+
+            <!--slide-box-6----------------->
+            <li class="item-f">
+                <div class="latest-box">
+                    <!--img-------------->
+                    <div class="latest-b-img">
+                        <img src="mv/L-6.jpg" alt="action movie">
+                    </div>
+                    <!--text--------->
+                    <div class="latest-b-text">
+                        <strong>Mortal Kombat 2021</strong>
+                        <p>Fantasy Movie</p>
+                    </div>
+                </div>
+            </li>
+
+            <!--slide-box-7----------------->
+            <li class="item-g">
+                <div class="latest-box">
+                    <!--img-------------->
+                    <div class="latest-b-img">
+                        <img src="mv/L-7.jpg" alt="action movie">
+                    </div>
+                    <!--text--------->
+                    <div class="latest-b-text">
+                        <strong>Recalled 2021</strong>
+                        <p>Mystery Movie</p>
+                    </div>
+                </div>
+            </li>
+
+            <!--slide-box-8----------------->
+            <li class="item-h">
+                <div class="latest-box">
+                    <!--img-------------->
+                    <div class="latest-b-img">
+                        <img src="mv/L-8.jpg" alt="action movie">
+                    </div>
+                    <!--text--------->
+                    <div class="latest-b-text">
+                        <strong>83 2021</strong>
+                        <p>Sports Movie</p>
+                    </div>
+                </div>
+            </li>
+
+            <!--slide-box-9----------------->
+            <li class="item-i">
+                <div class="latest-box">
+                    <!--img-------------->
+                    <div class="latest-b-img">
+                        <img src="mv/L-9.webp" alt="action movie">
+                    </div>
+                    <!--text--------->
+                    <div class="latest-b-text">
+                        <strong>Raya and the Last Dragon 2021</strong>
+                        <p>Fantasy Movie</p>
+                    </div>
+                </div>
+            </li>
+
+            <!--slide-box-10----------------->
+            <li class="item-j">
+                <div class="latest-box">
+                    <!--img-------------->
+                    <div class="latest-b-img">
+                        <img src="mv/L-10.jpg" alt="action movie">
+                    </div>
+                    <!--text--------->
+                    <div class="latest-b-text">
+                        <strong>Wonder Woman 1984 2020</strong>
+                        <p>Adventure Movie</p>
+                    </div>
+                </div>
+            </li>
+
+            <!--slide-box-11----------------->
+            <li class="item-k">
+                <div class="latest-box">
+                    <!--img-------------->
+                    <div class="latest-b-img">
+                        <img src="mv/L-11.jpg" alt="action movie">
+                    </div>
+                    <!--text--------->
+                    <div class="latest-b-text">
+                        <strong>Pipeline 2021</strong>
+                        <p>Crime Movie</p>
+                    </div>
+                </div>
+            </li>
+
+            <!--slide-box-12----------------->
+            <li class="item-l">
+                <div class="latest-box">
+                    <!--img-------------->
+                    <div class="latest-b-img">
+                        <img src="mv/L-12.jpg" alt="action movie">
+                    </div>
+                    <!--text--------->
+                    <div class="latest-b-text">
+                        <strong>Kin 2018</strong>
+                        <p>Sci-Fi Movie</p>
+                    </div>
+                </div>
+            </li>
+
+            <!--slide-box-13----------------->
+            <li class="item-m">
+                <div class="latest-box">
+                    <!--img-------------->
+                    <div class="latest-b-img">
+                        <img src="mv/L-13.jpeg" alt="action movie">
+                    </div>
+                    <!--text--------->
+                    <div class="latest-b-text">
+                        <strong>Jungle Cruise 2021</strong>
+                        <p>Adventure Movie</p>
+                    </div>
+                </div>
+            </li>
+
+            <!--slide-box-14----------------->
+            <li class="item-n">
+                <div class="latest-box">
+                    <!--img-------------->
+                    <div class="latest-b-img">
+                        <img src="mv/L-14.jpg" alt="action movie">
+                    </div>
+                    <!--text--------->
+                    <div class="latest-b-text">
+                        <strong>Iron Man 3 2013</strong>
+                        <p>Action Movie</p>
+                    </div>
+                </div>
+            </li>
+
+            <!--slide-box-15----------------->
+            <li class="item-o">
+                <div class="latest-box">
+                    <!--img-------------->
+                    <div class="latest-b-img">
+                        <img src="mv/L-15.jpg" alt="action movie">
+                    </div>
+                    <!--text--------->
+                    <div class="latest-b-text">
+                        <strong>Aquaman 2018</strong>
+                        <p>Action Movie</p>
+                    </div>
+                </div>
+            </li>
+
+            <!--slide-box-16----------------->
+            <li class="item-p">
+                <div class="latest-box">
+                    <!--img-------------->
+                    <div class="latest-b-img">
+                        <img src="mv/L-16.jpg" alt="action movie">
+                    </div>
+                    <!--text--------->
+                    <div class="latest-b-text">
+                        <strong>Peninsula 2020</strong>
+                        <p>Horror Movie</p>
+                    </div>
+                </div>
+            </li>
+
+            <!--slide-box-17----------------->
+            <li class="item-q">
+                <div class="latest-box">
+                    <!--img-------------->
+                    <div class="latest-b-img">
+                        <img src="mv/L-17.jpg" alt="action movie">
+                    </div>
+                    <!--text--------->
+                    <div class="latest-b-text">
+                        <strong>Venom 2018</strong>
+                        <p>Sci-Fi Movie</p>
+                    </div>
+                </div>
+            </li>   
+        </ul>
+
+    </section>
+
+    <div class="movies-heading">
+        <h2>Movies</h2>
+    </div>
+
+    <section id="movies-list">
+        <!--box-1------------------------->
+        <div class="movies-box">
+            <!--img------------------->
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="mv/M-1.jpg" alt="" srcset="">
+            </div>
+            <!--text--------------------->
+            <a href="#">
+                Onward(2020) Full Movie[In English] with English Subtitles | HDRip
+            </a>
+        </div>
+
+        <!--box-2------------------------->
+        <div class="movies-box">
+            <!--img------------------->
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="mv/M-2.jpg" alt="" srcset="">
+            </div>
+            <!--text--------------------->
+            <a href="#">
+                Fantastic Beasts: The Crimes of Grindelwald(2018) Full Movie[In English] | HDRip
+            </a>
+        </div>
+
+        <!--box-3------------------------->
+        <div class="movies-box">
+            <!--img------------------->
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="mv/M-3.jpg" alt="" srcset="">
+            </div>
+            <!--text--------------------->
+            <a href="#">
+                Ratatouille(2007) Full Movie[In English] with English Subtitles | HDRip
+            </a>
+        </div>
+
+        <!--box-4------------------------->
+        <div class="movies-box">
+            <!--img------------------->
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="mv/M-4.jpeg" alt="" srcset="">
+            </div>
+            <!--text--------------------->
+            <a href="#">
+                Toy Story 4(2019) Full Movie[In English] with English Subtitles | HDRip
+            </a>
+        </div>
+
+        <!--box-5------------------------->
+        <div class="movies-box">
+            <!--img------------------->
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="mv/M-5.jpg" alt="" srcset="">
+            </div>
+            <!--text--------------------->
+            <a href="#">
+                Avengers: Infinity War(2018) Full Movie[In English] with English Subtitles | HDRip
+            </a>
+        </div>
+
+        <!--box-6------------------------->
+        <div class="movies-box">
+            <!--img------------------->
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="mv/M-6.jpg" alt="" srcset="">
+            </div>
+            <!--text--------------------->
+            <a href="#">
+                Logan(2017) Full Movie[In English] with English Subtitles | HDRip
+            </a>
+        </div>
+
+        <!--box-7------------------------->
+        <div class="movies-box">
+            <!--img------------------->
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="mv/M-7.jpg" alt="" srcset="">
+            </div>
+            <!--text--------------------->
+            <a href="#">
+                Aquaman(2018) Full Movie[In English] with English Subtitles | HDRip
+            </a>
+        </div>
+
+        <!--box-8------------------------->
+        <div class="movies-box">
+            <!--img------------------->
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="mv/M-8.jpg" alt="" srcset="">
+            </div>
+            <!--text--------------------->
+            <a href="#">
+                Harry Potter and the Order of the Phoenix(2007) Full Movie[In English] | HDRip
+            </a>
+        </div>
+
+        <!--box-9------------------------->
+        <div class="movies-box">
+            <!--img------------------->
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="mv/M-9.jpg" alt="" srcset="">
+            </div>
+            <!--text--------------------->
+            <a href="#">
+                Fantastic Beasts and Where to Find Them(2016) Full Movie[In English] | HDRip
+            </a>
+        </div>
+
+        <!--box-10------------------------->
+        <div class="movies-box">
+            <!--img------------------->
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="mv/M-10.jpg" alt="" srcset="">
+            </div>
+            <!--text--------------------->
+            <a href="#">
+                Coco(2017) Full Movie[In English] with English Subtitles | HDRip
+            </a>
+        </div>
+
+        <!--box-11------------------------->
+        <div class="movies-box">
+            <!--img------------------->
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="mv/M-11.jpg" alt="" srcset="">
+            </div>
+            <!--text--------------------->
+            <a href="#">
+                Star Trek Into Darkness(2013) Full Movie[In English] with English Subtitles | HDRip
+            </a>
+        </div>
+
+        <!--box-12------------------------->
+        <div class="movies-box">
+            <!--img------------------->
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="mv/M-12.jpg" alt="" srcset="">
+            </div>
+            <!--text--------------------->
+            <a href="#">
+                Toy Story 3(2010) Full Movie[In English] with English Subtitles | HDRip
+            </a>
+        </div>
+
+        <!--box-13------------------------->
+        <div class="movies-box">
+            <!--img------------------->
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="mv/M-13.jpg" alt="" srcset="">
+            </div>
+            <!--text--------------------->
+            <a href="#">
+                Star Wars: The Rise of Skywalker(2019) Full Movie[In English] | HDRip
+            </a>
+        </div>
+
+        <!--box-14------------------------->
+        <div class="movies-box">
+            <!--img------------------->
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="mv/M-14.jpg" alt="" srcset="">
+            </div>
+            <!--text--------------------->
+            <a href="#">
+                Venom(2018) Full Movie[In English] with English Subtitles | HDRip
+            </a>
+        </div>
+
+        <!--box-15------------------------->
+        <div class="movies-box">
+            <!--img------------------->
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="mv/M-15.jpg" alt="" srcset="">
+            </div>
+            <!--text--------------------->
+            <a href="#">
+                The Croods(2013) Full Movie[In English] with English Subtitles | HDRip
+            </a>
+        </div>
+
+        <!--box-16------------------------->
+        <div class="movies-box">
+            <!--img------------------->
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="mv/M-16.jpg" alt="" srcset="">
+            </div>
+            <!--text--------------------->
+            <a href="#">
+                Rogue One: A Star Wars Story(2016) Full Movie[In English] with English Subtitles | HDRip
+            </a>
+        </div>
+    </section>
+
+    <!--btns------------------------->
+    <div class="btns">
+        <a href="#">Previous</a>
+        <a href="#">Next</a>
+    </div>
+
+    <!--footer---------------->
+    <footer>
+        <p>Copyright &copy Draksha Khan | 2021. All Rights Reserved.</p>
+    </footer>
+
+
+    <script>
+         $(document).ready(function() {
+            $('#autoWidth, #autoWidth2').lightSlider({
+                autoWidth:true,
+                loop:true,
+                onSliderLoad: function() {
+                    $('#autoWidth, #autoWidth2').removeClass('cs-hidden');
+                } 
+            });  
+        });
+    </script>
+
+</body>
+</html>
